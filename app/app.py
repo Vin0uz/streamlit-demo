@@ -16,3 +16,4 @@ df = pd.DataFrame({
 # to display in the dataframe
 # the selected value is returned by st.slider
 line_count = st.slider('Select a line count', 1, 10, 3)
+st.write(df.head(line_count))
